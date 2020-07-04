@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Easy_curve</string>
+    <string name="the_official_logo_for_our_application">The official logo for our application.</string>
+    <string name="title_activity_student_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <array name="toptions_images">
+        <item>@drawable/ic_account_circle</item>
+        <item>@drawable/ic_group</item>
+        <item>@drawable/ic_assignments</item>
+        <item>@drawable/ic_marks</item>
+    </array>
+
+    <string-array name="toptions_titles">
+        <item>Profile</item>
+        <item>Students</item>
+        <item>Assignments</item>
+        <item>Exam Marks</item>
+    </string-array>
+</resources>
