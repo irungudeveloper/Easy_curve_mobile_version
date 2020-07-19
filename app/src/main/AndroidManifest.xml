@@ -9,7 +9,26 @@
         android:roundIcon="@mipmap/ic_logo_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".StudentDashboardActivity"></activity>
+        <activity
+            android:name=".TeacherExamMarks"
+            android:label="@string/title_activity_teacher_exam_marks"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".TeacherAssignmentsActivity"
+            android:label="@string/title_activity_teacher_assignments"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TeacherStudentsActivity"
+            android:label="@string/title_activity_teacher_students"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".StudentFeesActivity" />
+        <activity
+            android:name=".StudentAssignmentsActivity"
+            android:label="@string/title_activity_student_assignments"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".TeacherProfileActivity" />
+        <activity android:name=".Student_Profile_Activity" />
+        <activity android:name=".StudentDashboardActivity" />
         <activity android:name=".TeacherDashboardActivity" />
         <activity android:name=".TeacherLoginActivity" />
         <activity android:name=".StudentLoginActivity" />
