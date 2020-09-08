@@ -60,6 +60,15 @@ public class TeacherDashboardActivity extends AppCompatActivity {
                 startActivity(toStudentExamMarks );
             }
         });
+        CardView card_view5 = findViewById(R.id.to_exam_entry);
+        card_view5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent toStudentExamEntry = new Intent(getApplicationContext(),TeacherExamEntry.class);
+                startActivity(toStudentExamEntry );
+            }
+        });
+
         Button tLogOut = findViewById(R.id.logoutAs_Teacher);
         tLogOut .setOnClickListener(new View.OnClickListener(){
 

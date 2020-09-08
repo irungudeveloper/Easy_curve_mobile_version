@@ -9,10 +9,11 @@
         android:roundIcon="@mipmap/ic_logo_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".TeacherExamEntry"></activity>
         <activity
             android:name=".TeacherExamMarks"
             android:label="@string/title_activity_teacher_exam_marks"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".TeacherAssignmentsActivity"
             android:label="@string/title_activity_teacher_assignments"

@@ -16,7 +16,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="129dp"
+        android:layout_height="90dp"
         android:background="@color/maincolor"
         android:padding="20dp">
 
@@ -26,19 +26,17 @@
         <!--            android:layout_height="100dp"-->
         <!--            android:src="@drawable/usertest"-->
         <!--            android:layout_centerVertical="true"/>-->
+
         <TextView
-            android:id="@+id/student_fname"
+            android:id="@+id/fee_details"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
             android:layout_marginLeft="95dp"
-            android:layout_marginTop="-900dp"
             android:includeFontPadding="false"
             android:text="Fee Details"
             android:textColor="@color/white"
-            android:textSize="25sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
-
     </RelativeLayout>
 
     <LinearLayout
