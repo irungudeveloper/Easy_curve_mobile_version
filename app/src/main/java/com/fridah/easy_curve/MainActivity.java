@@ -14,23 +14,23 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button select_loginAs_Student = findViewById(R.id.select_loginAs_Student);
-        select_loginAs_Student.setOnClickListener(new View.OnClickListener(){
+        Button select_accessAs_Student = findViewById(R.id.select_accessAs_Student);
+        select_accessAs_Student.setOnClickListener(new View.OnClickListener(){
 
             @Override
             public void onClick(View view) {
-                Intent logInAsStudentIntent = new Intent(getApplicationContext(),StudentLoginActivity.class);
-                startActivity(logInAsStudentIntent);
+                Intent accessAsStudentIntent = new Intent(getApplicationContext(),StudentAccess.class);
+                startActivity(accessAsStudentIntent);
 
             }
         });
-        Button select_loginAs_Teacher = findViewById(R.id.select_loginAs_Teacher);
-        select_loginAs_Teacher.setOnClickListener(new View.OnClickListener(){
+        Button select_accessAs_Teacher = findViewById(R.id.select_accessAs_Teacher);
+        select_accessAs_Teacher.setOnClickListener(new View.OnClickListener(){
 
             @Override
             public void onClick(View view) {
-                Intent logInAsTeacherIntent = new Intent(getApplicationContext(),TeacherLoginActivity.class);
-                startActivity(logInAsTeacherIntent);
+                Intent accessAsTeacherIntent = new Intent(getApplicationContext(),TeacherAccess.class);
+                startActivity(accessAsTeacherIntent);
 
             }
         });

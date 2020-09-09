@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_logo_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TeacherExamEntry"></activity>
+        <activity android:name=".TeacherRegistrationActivity"></activity>
+        <activity android:name=".TeacherAccess" />
+        <activity android:name=".StudentRegistrationActivity" />
+        <activity android:name=".StudentAccess" />
+        <activity android:name=".TeacherExamEntry" />
         <activity
             android:name=".TeacherExamMarks"
             android:label="@string/title_activity_teacher_exam_marks"

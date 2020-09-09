@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".StudentAccess">
 
     <ImageView
         android:layout_marginTop="80dp"
@@ -19,20 +19,20 @@
         android:id="@+id/continue_as"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Access As:"
-       android:layout_marginTop="30dp"
+        android:text="Select Option:"
+        android:layout_marginTop="30dp"
         android:textSize="16dp"
         android:layout_below="@id/school_logo"
         android:layout_centerHorizontal="true"
         android:textColor="#000000"
         />
     <Button
-        android:id="@+id/select_accessAs_Student"
+        android:id="@+id/select_logInAs_Student"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/continue_as"
         android:layout_centerHorizontal="true"
-        android:text="STUDENT"
+        android:text="LOG IN"
         android:textAllCaps="false"
         android:textStyle="bold"
         android:textSize="18dp"
@@ -41,12 +41,12 @@
         android:textColor="@color/white"
         />
     <Button
-        android:id="@+id/select_accessAs_Teacher"
+        android:id="@+id/select_registerAs_Student"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/select_accessAs_Student"
+        android:layout_below="@id/select_logInAs_Student"
         android:layout_centerHorizontal="true"
-        android:text="TEACHER"
+        android:text="REGISTER"
         android:textAllCaps="false"
         android:textStyle="bold"
         android:textSize="18dp"
