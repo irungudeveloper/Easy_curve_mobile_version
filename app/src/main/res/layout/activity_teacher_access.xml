@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeacherAccess">
+    <ImageView
+        android:layout_marginTop="80dp"
+        android:id="@+id/school_logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"
+        android:contentDescription="@string/the_official_logo_for_our_application"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/continue_as"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Option:"
+        android:layout_marginTop="30dp"
+        android:textSize="16dp"
+        android:layout_below="@id/school_logo"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        />
+    <Button
+        android:id="@+id/select_logInAs_Teacher"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/continue_as"
+        android:layout_centerHorizontal="true"
+        android:text="LOG IN"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_buttons"
+        android:textColor="@color/white"
+        />
+    <Button
+        android:id="@+id/select_registerAs_Teacher"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/select_logInAs_Teacher"
+        android:layout_centerHorizontal="true"
+        android:text="REGISTER"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_buttons"
+        android:textColor="@color/white"
+        />
+</RelativeLayout>

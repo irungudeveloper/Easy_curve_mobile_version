@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fridah.easy_curve">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logo_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TeacherRegistrationActivity"></activity>
+        <activity android:name=".TeacherAccess" />
+        <activity android:name=".StudentRegistrationActivity" />
+        <activity android:name=".StudentAccess" />
+        <activity android:name=".TeacherExamEntry" />
+        <activity
+            android:name=".TeacherExamMarks"
+            android:label="@string/title_activity_teacher_exam_marks"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TeacherAssignmentsActivity"
+            android:label="@string/title_activity_teacher_assignments"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TeacherStudentsActivity"
+            android:label="@string/title_activity_teacher_students"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".StudentFeesActivity" />
+        <activity
+            android:name=".StudentAssignmentsActivity"
+            android:label="@string/title_activity_student_assignments"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".TeacherProfileActivity" />
+        <activity android:name=".Student_Profile_Activity" />
+        <activity android:name=".StudentDashboardActivity" />
+        <activity android:name=".TeacherDashboardActivity" />
+        <activity android:name=".TeacherLoginActivity" />
+        <activity android:name=".StudentLoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

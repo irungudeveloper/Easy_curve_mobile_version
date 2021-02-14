@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Student_Profile_Activity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="20dp"
+        android:background="@color/maincolor">
+        <ImageView
+            android:id="@+id/student_profile_pic"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/usertest"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:id="@+id/student_fname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fridah"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/student_profile_pic"
+            android:layout_centerVertical="true"
+            android:includeFontPadding="false"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/student_sname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nkirote"
+            android:textColor="@color/white"
+            android:includeFontPadding="false"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_toRightOf="@id/student_fname"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/student_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="studentemail@easycurve.com"
+            android:textStyle="italic"
+            android:includeFontPadding="false"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:layout_below="@id/student_fname"
+            android:layout_toRightOf="@id/student_profile_pic"
+            android:layout_marginLeft="10dp"/>
+      </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="-110dp"
+        android:padding="2dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_margin="55dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="9dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/student_my_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:includeFontPadding="false"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/ic_marks"
+                    android:text="My Details:"
+                    android:textColor="@color/maincolor"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/stu_profile_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="2dp">
+
+        <TextView
+            android:id="@+id/student_class_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:includeFontPadding="false"
+            android:text="Class:"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/student_class"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_toRightOf="@id/student_class_title"
+            android:includeFontPadding="false"
+            android:text="4 Everest"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/student_birthday_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Birthday:"
+            android:textStyle="bold"
+            android:includeFontPadding="false"
+            android:textSize="20sp"
+            android:layout_below="@id/student_class_title"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:id="@+id/student_birthday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="29/10/1999"
+            android:includeFontPadding="false"
+            android:textSize="17sp"
+            android:layout_toRightOf="@id/student_birthday_title"
+            android:layout_below="@id/student_class_title"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"/>
+
+        <Button
+            android:id="@+id/student_profile_back"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/student_birthday"
+            android:layout_marginLeft="78dp"
+            android:layout_marginTop="157dp"
+            android:background="@drawable/custom_logout_button"
+            android:text="BACK"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</LinearLayout>
